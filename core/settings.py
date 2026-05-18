@@ -30,7 +30,7 @@ DEBUG = False
 if DEBUG:
     ALLOWED_HOSTS = ['*']
 else:
-    ALLOWED_HOSTS = ['192.168.1.7']
+    ALLOWED_HOSTS = ['api-cadastroclientesddc.donadochopp.com.br']
 
 CORS_ALLOW_ALL_ORIGINS = True
 # Application definition
