@@ -33,7 +33,10 @@ else:
     ALLOWED_HOSTS = ['api-cadastroclientesddc.donadochopp.com.br']
 
 CORS_ALLOW_ALL_ORIGINS = True
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://api-cadastroclientesddc.donadochopp.com.br',
+    'http://api-cadastroclientesddc.donadochopp.com.br',
+]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
