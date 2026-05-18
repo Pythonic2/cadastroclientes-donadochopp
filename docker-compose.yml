@@ -1,0 +1,20 @@
+services:
+  cadastroclientes-ddc:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    pull_policy: build
+    restart: always
+    ports:
+      - "8009:8009"
+    networks:
+      - pi_default
+    volumes:
+      - cadastroclientes_ddc_data:/var/lib/postgresql/data
+      - cadastroclientes_ddc_app:/app/media
+volumes:
+  cadastroclientes_ddc_data:
+  cadastroclientes_ddc_app:
+networks:
+  pi_default:
+    external: true
