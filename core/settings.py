@@ -25,10 +25,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-b$_$^7vz3f6t%s+bz%6gx99lp66@*73#*i-r&%!9x=dk+4_p%*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 if DEBUG:
-    ALLOWED_HOSTS = ['*']
+    ALLOWED_HOSTS = ['api-cadastroclientesddc.donadochopp.com.br','*']
 else:
     ALLOWED_HOSTS = ['api-cadastroclientesddc.donadochopp.com.br']
 
