@@ -33,7 +33,7 @@ else:
     ALLOWED_HOSTS = ['api-cadastroclientesddc.donadochopp.com.br']
 
 CORS_ALLOW_ALL_ORIGINS = True
-# Application definition
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -46,7 +46,6 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'clients',
     'import_export',
-    # CORS
     'corsheaders',
 
 ]
