@@ -109,7 +109,7 @@ DATABASES = {
         'NAME': 'cloudbooster_db',
         'USER': 'cloud_user',
         'PASSWORD':'37192541aaSS@',
-        'HOST':  '192.168.1.7',
+        'HOST':  '192.168.4.74',
         'PORT': '5432',
         'OPTIONS': {
             'options': '-c search_path=clientesdonadochopp'
