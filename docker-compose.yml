@@ -18,3 +18,5 @@ volumes:
 networks:
   pi_default:
     external: true
+  banco_default:
+    external: true
